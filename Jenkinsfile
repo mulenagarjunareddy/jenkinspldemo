@@ -22,5 +22,10 @@ pipeline {
                 echo 'h'
             }
         }
+        stage('new') {
+            steps {
+                echo 'added new stage'
+            }
+        }
     }
 }
